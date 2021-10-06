@@ -7,7 +7,7 @@ var guiones;
 
 //Evento en el que al perder el foco del input palabra, se forman los guiones
 document.addEventListener("blur", crearGuiones, true);
-document.addEventListener("change", buscarCaracter, false)
+letra.addEventListener("keyup", buscarCaracter, false)
 
 //Reemplaza cada caracter de la palabra insertada por guiones y los muestra en el espacio de resultado
 function crearGuiones(){
